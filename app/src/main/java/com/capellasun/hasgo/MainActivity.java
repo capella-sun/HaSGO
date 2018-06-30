@@ -51,4 +51,8 @@ public class MainActivity extends AppCompatActivity {
         Intent gotoJoinActivity = new Intent(this, Login.class);
         startActivity(gotoJoinActivity);
     }
+
+    private void btnCreateOnClick() {
+
+    }
 }

@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 public class Lobby extends AppCompatActivity {
+    // TODO: Adjust Constraint Layouts in content_lobby.xml
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,13 @@ public class Lobby extends AppCompatActivity {
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    /**
+     * Loads lobby properties such as Lobby name, id, intitial player(s)
+     */
+    private void loadLobbyProperties() {
+        // TODO: Determine Lobby Properties schema
     }
 
 }
